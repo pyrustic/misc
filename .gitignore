@@ -2,8 +2,10 @@
 
 # Python
 __pycache__/
-
 *.py[cod]
+build/
+dist/
+*.egg-info/
 
 # Environments
 venv/
@@ -14,6 +16,9 @@ env/
 
 # Databases
 *.db
+
+# Releases
+pyrustic_data/dist/
 
 # Secret
 secret/
